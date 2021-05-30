@@ -11,6 +11,7 @@ struct TeamRepresentation: Codable {
     let idTeam: String
     let strTeam: String
     let strTeamBadge: String?
+    let strTeamBanner: String?
     let strLeague: String
     let strDescriptionFR: String?
     let strCountry: String

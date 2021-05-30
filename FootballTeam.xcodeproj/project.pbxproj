@@ -30,6 +30,7 @@
 		360B5825266055550006DF8E /* SportAPIClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360B5824266055550006DF8E /* SportAPIClientMock.swift */; };
 		360B5827266055DC0006DF8E /* SearchTeamResponseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360B5826266055DC0006DF8E /* SearchTeamResponseRepresentation.swift */; };
 		363B19BC2660EFA800CA5F01 /* TeamRemoteDataStoreMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363B19BB2660EFA800CA5F01 /* TeamRemoteDataStoreMock.swift */; };
+		364A685F2664D54200BD38FC /* TeamListRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364A685E2664D54200BD38FC /* TeamListRouterMock.swift */; };
 		36A8681126612A5400435B67 /* TeamListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8681026612A5400435B67 /* TeamListPresenter.swift */; };
 		36A8681626612DA700435B67 /* TeamListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8681526612DA700435B67 /* TeamListCollectionViewController.swift */; };
 		36A8681926612FCC00435B67 /* TeamCellRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8681826612FCC00435B67 /* TeamCellRepresentation.swift */; };
@@ -38,11 +39,24 @@
 		36A8682026614B0100435B67 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 36A8681F26614B0100435B67 /* AlamofireImage */; };
 		36A8682226615F8300435B67 /* TeamListInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8682126615F8300435B67 /* TeamListInteractorMock.swift */; };
 		36A86824266160E000435B67 /* TeamsListPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A86823266160E000435B67 /* TeamsListPresenterSpec.swift */; };
-		36A86826266179D600435B67 /* TeamsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A86825266179D600435B67 /* TeamsListRouter.swift */; };
+		36A86826266179D600435B67 /* TeamListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A86825266179D600435B67 /* TeamListRouter.swift */; };
 		36A8682826617C3B00435B67 /* TeamsListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8682726617C3B00435B67 /* TeamsListBuilder.swift */; };
+		36A8682D2663E64800435B67 /* TeamDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A8682C2663E64800435B67 /* TeamDetailInteractor.swift */; };
+		36A868332663E80600435B67 /* TeamDetailInteractorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A868322663E80600435B67 /* TeamDetailInteractorSpec.swift */; };
+		36A868362663E8A600435B67 /* TeamDetailMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A868352663E8A600435B67 /* TeamDetailMock.swift */; };
+		36A868392663EC1800435B67 /* TeamDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A868382663EC1800435B67 /* TeamDetailPresenter.swift */; };
+		36EF6F0626642B85008BE600 /* TeamDetailInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF6F0526642B85008BE600 /* TeamDetailInteractorMock.swift */; };
+		36EF6F0826642E22008BE600 /* TeamDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF6F0726642E22008BE600 /* TeamDetailPresenter.swift */; };
+		36EF6F0B2664318E008BE600 /* TeamDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF6F0A2664318E008BE600 /* TeamDetailTableViewController.swift */; };
+		36EF6F14266436BF008BE600 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF6F12266436BF008BE600 /* HeaderView.swift */; };
+		36EF6F18266437D0008BE600 /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF6F16266437D0008BE600 /* DescriptionTableViewCell.swift */; };
+		36EF6F19266437D0008BE600 /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36EF6F17266437D0008BE600 /* DescriptionTableViewCell.xib */; };
+		36EF6F1D26643AE7008BE600 /* TeamDescriptionCellRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF6F1C26643AE7008BE600 /* TeamDescriptionCellRepresentation.swift */; };
+		36EF6F1F266440D8008BE600 /* TeamDetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF6F1E266440D8008BE600 /* TeamDetailBuilder.swift */; };
+		36EF6F2126644ADA008BE600 /* TeamHeaderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EF6F2026644ADA008BE600 /* TeamHeaderRepresentation.swift */; };
 		C0A66BA7266076CC0052E5B0 /* TeamListInteractorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A66BA6266076CC0052E5B0 /* TeamListInteractorSpec.swift */; };
-		C0A66BB22662FA010052E5B0 /* ListTeamsTeamMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A66BB12662FA010052E5B0 /* ListTeamsTeamMock.swift */; };
-		C0A66BB42662FADA0052E5B0 /* ListTeamsTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A66BB32662FADA0052E5B0 /* ListTeamsTeam.swift */; };
+		C0A66BB22662FA010052E5B0 /* TeamMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A66BB12662FA010052E5B0 /* TeamMock.swift */; };
+		C0A66BB42662FADA0052E5B0 /* TeamProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A66BB32662FADA0052E5B0 /* TeamProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +101,7 @@
 		360B5824266055550006DF8E /* SportAPIClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportAPIClientMock.swift; sourceTree = "<group>"; };
 		360B5826266055DC0006DF8E /* SearchTeamResponseRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTeamResponseRepresentation.swift; sourceTree = "<group>"; };
 		363B19BB2660EFA800CA5F01 /* TeamRemoteDataStoreMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRemoteDataStoreMock.swift; sourceTree = "<group>"; };
+		364A685E2664D54200BD38FC /* TeamListRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListRouterMock.swift; sourceTree = "<group>"; };
 		36A8681026612A5400435B67 /* TeamListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListPresenter.swift; sourceTree = "<group>"; };
 		36A8681526612DA700435B67 /* TeamListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListCollectionViewController.swift; sourceTree = "<group>"; };
 		36A8681826612FCC00435B67 /* TeamCellRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamCellRepresentation.swift; sourceTree = "<group>"; };
@@ -94,11 +109,24 @@
 		36A8681B26613E1500435B67 /* TeamCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamCollectionViewCell.xib; sourceTree = "<group>"; };
 		36A8682126615F8300435B67 /* TeamListInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListInteractorMock.swift; sourceTree = "<group>"; };
 		36A86823266160E000435B67 /* TeamsListPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListPresenterSpec.swift; sourceTree = "<group>"; };
-		36A86825266179D600435B67 /* TeamsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListRouter.swift; sourceTree = "<group>"; };
+		36A86825266179D600435B67 /* TeamListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListRouter.swift; sourceTree = "<group>"; };
 		36A8682726617C3B00435B67 /* TeamsListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsListBuilder.swift; sourceTree = "<group>"; };
+		36A8682C2663E64800435B67 /* TeamDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailInteractor.swift; sourceTree = "<group>"; };
+		36A868322663E80600435B67 /* TeamDetailInteractorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailInteractorSpec.swift; sourceTree = "<group>"; };
+		36A868352663E8A600435B67 /* TeamDetailMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailMock.swift; sourceTree = "<group>"; };
+		36A868382663EC1800435B67 /* TeamDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailPresenter.swift; sourceTree = "<group>"; };
+		36EF6F0526642B85008BE600 /* TeamDetailInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailInteractorMock.swift; sourceTree = "<group>"; };
+		36EF6F0726642E22008BE600 /* TeamDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailPresenter.swift; sourceTree = "<group>"; };
+		36EF6F0A2664318E008BE600 /* TeamDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailTableViewController.swift; sourceTree = "<group>"; };
+		36EF6F12266436BF008BE600 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		36EF6F16266437D0008BE600 /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		36EF6F17266437D0008BE600 /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		36EF6F1C26643AE7008BE600 /* TeamDescriptionCellRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDescriptionCellRepresentation.swift; sourceTree = "<group>"; };
+		36EF6F1E266440D8008BE600 /* TeamDetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailBuilder.swift; sourceTree = "<group>"; };
+		36EF6F2026644ADA008BE600 /* TeamHeaderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamHeaderRepresentation.swift; sourceTree = "<group>"; };
 		C0A66BA6266076CC0052E5B0 /* TeamListInteractorSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListInteractorSpec.swift; sourceTree = "<group>"; };
-		C0A66BB12662FA010052E5B0 /* ListTeamsTeamMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTeamsTeamMock.swift; sourceTree = "<group>"; };
-		C0A66BB32662FADA0052E5B0 /* ListTeamsTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTeamsTeam.swift; sourceTree = "<group>"; };
+		C0A66BB12662FA010052E5B0 /* TeamMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMock.swift; sourceTree = "<group>"; };
+		C0A66BB32662FADA0052E5B0 /* TeamProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,15 +183,15 @@
 		360B57C7265F98120006DF8E /* FootballTeam */ = {
 			isa = PBXGroup;
 			children = (
-				360B5815265FBCE20006DF8E /* Client */,
-				360B5810265FB7FE0006DF8E /* Remote */,
-				36A868292663E2F100435B67 /* Module */,
+				360B57D6265F98130006DF8E /* Info.plist */,
 				360B57C8265F98120006DF8E /* AppDelegate.swift */,
 				360B57CA265F98120006DF8E /* SceneDelegate.swift */,
-				360B57CE265F98120006DF8E /* Main.storyboard */,
 				360B57D1265F98130006DF8E /* Assets.xcassets */,
+				360B5815265FBCE20006DF8E /* Client */,
 				360B57D3265F98130006DF8E /* LaunchScreen.storyboard */,
-				360B57D6265F98130006DF8E /* Info.plist */,
+				360B57CE265F98120006DF8E /* Main.storyboard */,
+				36A868292663E2F100435B67 /* Module */,
+				360B5810265FB7FE0006DF8E /* Remote */,
 			);
 			path = FootballTeam;
 			sourceTree = "<group>";
@@ -171,12 +199,9 @@
 		360B57DE265F98130006DF8E /* FootballTeamTests */ = {
 			isa = PBXGroup;
 			children = (
-				360B5823266055360006DF8E /* Mock */,
-				360B57DF265F98130006DF8E /* SportDBRouterSpec.swift */,
-				360B5821266054D20006DF8E /* TeamRemoteDataStoreSpec.swift */,
 				360B57E1265F98130006DF8E /* Info.plist */,
-				C0A66BA6266076CC0052E5B0 /* TeamListInteractorSpec.swift */,
-				36A86823266160E000435B67 /* TeamsListPresenterSpec.swift */,
+				36A868312663E7F600435B67 /* TeamDetail */,
+				364A686026651C8900BD38FC /* TeamList */,
 			);
 			path = FootballTeamTests;
 			sourceTree = "<group>";
@@ -190,7 +215,7 @@
 			path = FootballTeamUITests;
 			sourceTree = "<group>";
 		};
-		360B580D265FA46A0006DF8E /* ListTeams */ = {
+		360B580D265FA46A0006DF8E /* TeamList */ = {
 			isa = PBXGroup;
 			children = (
 				C0A66BAF2662ECB80052E5B0 /* Router */,
@@ -200,7 +225,7 @@
 				36A8681226612D4500435B67 /* View */,
 				36A8682726617C3B00435B67 /* TeamsListBuilder.swift */,
 			);
-			path = ListTeams;
+			path = TeamList;
 			sourceTree = "<group>";
 		};
 		360B5810265FB7FE0006DF8E /* Remote */ = {
@@ -229,9 +254,22 @@
 				360B5824266055550006DF8E /* SportAPIClientMock.swift */,
 				363B19BB2660EFA800CA5F01 /* TeamRemoteDataStoreMock.swift */,
 				36A8682126615F8300435B67 /* TeamListInteractorMock.swift */,
-				C0A66BB12662FA010052E5B0 /* ListTeamsTeamMock.swift */,
+				C0A66BB12662FA010052E5B0 /* TeamMock.swift */,
+				364A685E2664D54200BD38FC /* TeamListRouterMock.swift */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		364A686026651C8900BD38FC /* TeamList */ = {
+			isa = PBXGroup;
+			children = (
+				360B57DF265F98130006DF8E /* SportDBRouterSpec.swift */,
+				360B5821266054D20006DF8E /* TeamRemoteDataStoreSpec.swift */,
+				C0A66BA6266076CC0052E5B0 /* TeamListInteractorSpec.swift */,
+				36A86823266160E000435B67 /* TeamsListPresenterSpec.swift */,
+				360B5823266055360006DF8E /* Mock */,
+			);
+			path = TeamList;
 			sourceTree = "<group>";
 		};
 		36A8681226612D4500435B67 /* View */ = {
@@ -255,9 +293,94 @@
 		36A868292663E2F100435B67 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				360B580D265FA46A0006DF8E /* ListTeams */,
+				360B581F266049990006DF8E /* Team.swift */,
+				36A8682A2663E5C600435B67 /* TeamDetail */,
+				360B580D265FA46A0006DF8E /* TeamList */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		36A8682A2663E5C600435B67 /* TeamDetail */ = {
+			isa = PBXGroup;
+			children = (
+				36EF6F0926643122008BE600 /* View */,
+				36A868372663EBF000435B67 /* Presenter */,
+				36A8682B2663E62D00435B67 /* Interactor */,
+				36EF6F1E266440D8008BE600 /* TeamDetailBuilder.swift */,
+			);
+			path = TeamDetail;
+			sourceTree = "<group>";
+		};
+		36A8682B2663E62D00435B67 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				36A8682C2663E64800435B67 /* TeamDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		36A868312663E7F600435B67 /* TeamDetail */ = {
+			isa = PBXGroup;
+			children = (
+				36A868342663E89800435B67 /* Mock */,
+				36A868322663E80600435B67 /* TeamDetailInteractorSpec.swift */,
+				36EF6F0726642E22008BE600 /* TeamDetailPresenter.swift */,
+			);
+			path = TeamDetail;
+			sourceTree = "<group>";
+		};
+		36A868342663E89800435B67 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				36A868352663E8A600435B67 /* TeamDetailMock.swift */,
+				36EF6F0526642B85008BE600 /* TeamDetailInteractorMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		36A868372663EBF000435B67 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				36EF6F1C26643AE7008BE600 /* TeamDescriptionCellRepresentation.swift */,
+				36EF6F2026644ADA008BE600 /* TeamHeaderRepresentation.swift */,
+				36A868382663EC1800435B67 /* TeamDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		36EF6F0926643122008BE600 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36EF6F1A266439E8008BE600 /* HeaderView */,
+				36EF6F112664369D008BE600 /* Cells */,
+				36EF6F0A2664318E008BE600 /* TeamDetailTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36EF6F112664369D008BE600 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				36EF6F1B266439F4008BE600 /* DescriptionCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		36EF6F1A266439E8008BE600 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				36EF6F12266436BF008BE600 /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		36EF6F1B266439F4008BE600 /* DescriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				36EF6F16266437D0008BE600 /* DescriptionTableViewCell.swift */,
+				36EF6F17266437D0008BE600 /* DescriptionTableViewCell.xib */,
+			);
+			path = DescriptionCell;
 			sourceTree = "<group>";
 		};
 		C0A66BAB2662EC870052E5B0 /* Presenter */ = {
@@ -280,8 +403,7 @@
 		C0A66BAE2662ECA40052E5B0 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				360B581F266049990006DF8E /* Team.swift */,
-				C0A66BB32662FADA0052E5B0 /* ListTeamsTeam.swift */,
+				C0A66BB32662FADA0052E5B0 /* TeamProtocol.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -289,7 +411,7 @@
 		C0A66BAF2662ECB80052E5B0 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				36A86825266179D600435B67 /* TeamsListRouter.swift */,
+				36A86825266179D600435B67 /* TeamListRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -425,6 +547,7 @@
 			files = (
 				360B57D5265F98130006DF8E /* LaunchScreen.storyboard in Resources */,
 				36A8681D26613E1500435B67 /* TeamCollectionViewCell.xib in Resources */,
+				36EF6F19266437D0008BE600 /* DescriptionTableViewCell.xib in Resources */,
 				360B57D2265F98130006DF8E /* Assets.xcassets in Resources */,
 				360B57D0265F98120006DF8E /* Main.storyboard in Resources */,
 			);
@@ -463,7 +586,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:${PATH}\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint autocorrect\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -478,17 +601,25 @@
 				360B5812265FB8200006DF8E /* TeamRemoteDataStoreProtocol.swift in Sources */,
 				360B580F265FA49C0006DF8E /* TeamListInteractor.swift in Sources */,
 				360B57C9265F98120006DF8E /* AppDelegate.swift in Sources */,
-				36A86826266179D600435B67 /* TeamsListRouter.swift in Sources */,
+				36A868392663EC1800435B67 /* TeamDetailPresenter.swift in Sources */,
+				36A8682D2663E64800435B67 /* TeamDetailInteractor.swift in Sources */,
+				36A86826266179D600435B67 /* TeamListRouter.swift in Sources */,
 				36A8681926612FCC00435B67 /* TeamCellRepresentation.swift in Sources */,
 				36A8681626612DA700435B67 /* TeamListCollectionViewController.swift in Sources */,
 				360B57CB265F98120006DF8E /* SceneDelegate.swift in Sources */,
+				36EF6F18266437D0008BE600 /* DescriptionTableViewCell.swift in Sources */,
 				360B5814265FBB010006DF8E /* TeamRepresentation.swift in Sources */,
+				36EF6F1F266440D8008BE600 /* TeamDetailBuilder.swift in Sources */,
+				36EF6F2126644ADA008BE600 /* TeamHeaderRepresentation.swift in Sources */,
 				36A8682826617C3B00435B67 /* TeamsListBuilder.swift in Sources */,
+				36EF6F0B2664318E008BE600 /* TeamDetailTableViewController.swift in Sources */,
+				36EF6F14266436BF008BE600 /* HeaderView.swift in Sources */,
 				360B5820266049990006DF8E /* Team.swift in Sources */,
 				36A8681C26613E1500435B67 /* TeamCollectionViewCell.swift in Sources */,
 				360B5827266055DC0006DF8E /* SearchTeamResponseRepresentation.swift in Sources */,
+				36EF6F1D26643AE7008BE600 /* TeamDescriptionCellRepresentation.swift in Sources */,
 				360B581E266013180006DF8E /* SportDBError.swift in Sources */,
-				C0A66BB42662FADA0052E5B0 /* ListTeamsTeam.swift in Sources */,
+				C0A66BB42662FADA0052E5B0 /* TeamProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,13 +627,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36EF6F0626642B85008BE600 /* TeamDetailInteractorMock.swift in Sources */,
 				36A86824266160E000435B67 /* TeamsListPresenterSpec.swift in Sources */,
+				364A685F2664D54200BD38FC /* TeamListRouterMock.swift in Sources */,
 				C0A66BA7266076CC0052E5B0 /* TeamListInteractorSpec.swift in Sources */,
 				36A8682226615F8300435B67 /* TeamListInteractorMock.swift in Sources */,
+				36A868362663E8A600435B67 /* TeamDetailMock.swift in Sources */,
 				360B5825266055550006DF8E /* SportAPIClientMock.swift in Sources */,
-				C0A66BB22662FA010052E5B0 /* ListTeamsTeamMock.swift in Sources */,
+				36EF6F0826642E22008BE600 /* TeamDetailPresenter.swift in Sources */,
+				C0A66BB22662FA010052E5B0 /* TeamMock.swift in Sources */,
 				360B5822266054D20006DF8E /* TeamRemoteDataStoreSpec.swift in Sources */,
 				360B57E0265F98130006DF8E /* SportDBRouterSpec.swift in Sources */,
+				36A868332663E80600435B67 /* TeamDetailInteractorSpec.swift in Sources */,
 				363B19BC2660EFA800CA5F01 /* TeamRemoteDataStoreMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

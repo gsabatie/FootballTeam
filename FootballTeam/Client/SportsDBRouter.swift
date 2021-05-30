@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 enum SportDBRouter: URLRequestConvertible {
-    case searchTeamInLeague(String)
+    case searchTeamInLeague(String, String)
 
     // MARK: - Properties
 
@@ -39,8 +39,8 @@ enum SportDBRouter: URLRequestConvertible {
         request.method = method
 
         switch self {
-        case let .searchTeamInLeague(searchScope):
-            request = try URLEncodedFormParameterEncoder().encode(["l": searchScope], into: request)
+        case let .searchTeamInLeague(language, searchScope):
+            request = try URLEncodedFormParameterEncoder().encode(["l": "\(language) \(searchScope)"], into: request)
         }
 
         return request

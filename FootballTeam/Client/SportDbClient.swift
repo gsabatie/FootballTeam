@@ -20,7 +20,7 @@ struct SportsDbClient: SportAPIClientProtocol {
     // MARK: - SportAPIClientProtocol
 
     func getAllTeamsInleague(from searchScope: String) -> AnyPublisher<SearchTeamResponseRepresentation, Error> {
-        return AF.request(SportDBRouter.searchTeamInLeague(searchScope))
+        return AF.request(SportDBRouter.searchTeamInLeague("French", searchScope))
             .publishDecodable(type: SearchTeamResponseRepresentation.self)
             .value()
             .print()
