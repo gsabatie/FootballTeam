@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='FootballTeamUITests.xctest' tests='15' failures='0'>
+  <testsuite name='FootballTeamTests.SportDBRouterSpec' tests='2' failures='0'>
+    <testcase classname='FootballTeamTests.SportDBRouterSpec' name='searchTeamInLeague_case__empty_search_scope__should_have_a_url_request_with_an_empty_parameter' time='0.011'/>
+    <testcase classname='FootballTeamTests.SportDBRouterSpec' name='searchTeamInLeague_case__valid_search_scope__should_have_a_url_request_with_the_search_scode_as_parameter' time='0.001'/>
+  </testsuite>
+  <testsuite name='FootballTeamTests.TeamDetailInteractorSpec' tests='1' failures='0'>
+    <testcase classname='FootballTeamTests.TeamDetailInteractorSpec' name='initialization__should_update_the_team_publisher' time='0.002'/>
+  </testsuite>
+  <testsuite name='FootballTeamTests.TeamDetailPresenterSpec' tests='1' failures='0'>
+    <testcase classname='FootballTeamTests.TeamDetailPresenterSpec' name='initialization__should_update_the_team_publisher' time='0.002'/>
+  </testsuite>
+  <testsuite name='FootballTeamTests.TeamListInteractorSpec' tests='3' failures='0'>
+    <testcase classname='FootballTeamTests.TeamListInteractorSpec' name='searchTeam__previous_text_empty__valid_search_scope__should_update_the_list_teams' time='0.002'/>
+    <testcase classname='FootballTeamTests.TeamListInteractorSpec' name='searchTeam__previous_text_empty__invalid_search_scope__should_return_an_empty_list' time='0.001'/>
+    <testcase classname='FootballTeamTests.TeamListInteractorSpec' name='searchTeam__previous_text_empty__Remote_data_source_send_an_error__should_send_an_error' time='0.003'/>
+  </testsuite>
+  <testsuite name='FootballTeamTests.TeamRemoteDataStoreSpec' tests='2' failures='0'>
+    <testcase classname='FootballTeamTests.TeamRemoteDataStoreSpec' name='getTeams__empty_search_scope__should_return_a_list_of_teams' time='0.002'/>
+    <testcase classname='FootballTeamTests.TeamRemoteDataStoreSpec' name='getTeams__valid_search_scope__should_return_a_list_of_teams' time='0.001'/>
+  </testsuite>
+  <testsuite name='FootballTeamTests.TeamsListPresenterSpec' tests='4' failures='0'>
+    <testcase classname='FootballTeamTests.TeamsListPresenterSpec' name='serchLeague__valid_search_scope__should_update_the_list_of_teams' time='0.002'/>
+    <testcase classname='FootballTeamTests.TeamsListPresenterSpec' name='serchLeague__valid_search_scope__empty_search_scope__should_not_update_the_list_of_teams' time='0.001'/>
+    <testcase classname='FootballTeamTests.TeamsListPresenterSpec' name='serchLeague__valid_search_scope__interractor_sent_an_error__should_send_an_error_message' time='0.001'/>
+    <testcase classname='FootballTeamTests.TeamsListPresenterSpec' name='didSelectItem__should_push_a_detail_team' time='0.001'/>
+  </testsuite>
+  <testsuite name='FootballTeamUITests.FootballTeamUITests' tests='2' failures='0'>
+    <testcase classname='FootballTeamUITests.FootballTeamUITests' name='testExample' time='1.738'/>
+    <testcase classname='FootballTeamUITests.FootballTeamUITests' name='testLaunchPerformance' time='82.239'/>
+  </testsuite>
+</testsuites>
